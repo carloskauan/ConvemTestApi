@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const cors = require("cors")
-const PORT = process.env.PORT || 7070;
+const PORT = process.env.PORT || 9090;
 //Import router
 const convemteamRouter = require('./router/conventeamRouter.js')
 
